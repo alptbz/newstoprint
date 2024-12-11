@@ -1,0 +1,3 @@
+requests
+escpos
+deep_translator
