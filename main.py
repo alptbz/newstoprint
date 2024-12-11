@@ -1,6 +1,6 @@
 import sys
 import config
-import news_service
+import services.news_service as news_service
 import services.notifications_service as notifications_service
 import services.translation_service as translation_service
 
@@ -23,4 +23,6 @@ if __name__ == '__main__':
 
     # Output the news
     notifications_service.send_notifications(first_news_summary_text_translated)
+
+    print("Done")
 
